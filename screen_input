@@ -1,0 +1,117 @@
+24 a to take screen snot via sneii
+
+25 a import cwindaw root screen.png
+
+26 a sp.caii(["import", ”cwindaw”, "root", "screen.png"]
+
+27
+
+2a a noid execution for few seconds
+
+29 #time.sleep(5)
+
+3a a capture tne current screensnot
+
+31 image : ss.grab()
+
+32 a display tne image
+
+33 #image.show()
+
+34 a save tne image fiie
+
+35 #image.save('s(reenshat.png')
+
+36 a read tne contents of tne image fiie stored in PIL memory
+37 text : 1tos(image, Iang:‘eng‘)
+
+3a
+
+39 a open tne fiie for writing tne text
+
+40 try:
+
+41 fileiabj : open(‘s(reen7inputj
+42 except IDError as ioex:
+
+43 print "error no:", ioex.errno
+44 print "err codex", errno.errorcode[ioex.errno]
+45 print "err msgi", os.strerror(ioex errno)
+
+46 a cieanup tne code
+
+47 exit()
+
+45 a write extracted text from image to tne fiie
+49 fileiabj.write(text.encade(‘utfc8‘))
+
+so a bring tne controi to tne starting of fiie
+
+51 fiie,obj.seek(e)
+
+52 a create mmap abje(t to treat fiie as string
+53 try:
+
+54 nnapiabj : mmap.mmap(fi1e,obj.fiieno(), e)
+55 except IDError as ioex:
+
+so print "error no:", ieox.errno
+
+57 print "err codex", errno.errorcode[ioex.errno]
+55 print "err msgi", os.strerror(ioex errno)
+
+59 a cieanup tne code
+
+so fiie,obj.c1ose()
+
+61 exit()
+
+62
+
+63 a searcn for a word in mmapiabj
+
+o4 isisuccess : nnapiabj.find("exe(ution")
+
+65 if ,1 isisuccess:
+
+66 print "string not found in fiie"
+
+67 else-
+
+on print "string found"
+
+69 a ciose tne fiie
+
+7o fiie,obj.c1ose()
+
+w+y
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+takeiscreenshat.py" 7eL, 1952c written 41,36 not
+err msg: No such file or directory cse7ecse 5 cd Documents/3C1Itakeiscreenshatifinditext
+Traceback (most recent call last): cse7ecse [Documents/3C1Itakeiscreenshatifinditexts vim
+File "takeiscreenshat.py", line 45, in <modu1e> .git/ screeniinput .takeiscreenshat.py.swp
+fileiabj.write(text.encade('utfca')) READHE.nd takeiscreenshat.py
+uameError name 'fileiabj' is not defined cse7ecse [Documents/3C1Itakeiscreenshatifinditexts vim screen input
+
+ 
+
+cse7ecse7'-/Dacunents/ECIItakeiscreenshatifinditexts cse7ecse7
+cse7ecse7 -/Dacunents/ECI[takeiscreenshatifinditexts cse7ecse
+cse7ecse7 -/Dacunents/ECI[takeiscreenshatifinditexts
+
+cse7ecse7 -/Dacunents/ECI[takeiscreenshatifinditexts
+
+cse7ecse7:-/Dacunents/ECIItakeiscreenshatifinditexts python takeiscreenshat.py
+
+[Documents/3C1Itakeiscreenshatifinditexts vim screeniinput
+[Documents/3C1Itakeiscreenshatifinditexts
